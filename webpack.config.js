@@ -23,6 +23,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "React App With Webpack",
             filename : "index.html",
+            template: './src/index.html',
         })
     ],
+    mode : 'development'
 }
