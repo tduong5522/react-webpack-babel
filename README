@@ -1,3 +1,0 @@
-Webpack is used to bundle files JS but it won't understand code React.
-So babel will help solve the matters which webpack will face with code React.
-Babel which is a toolchain will convert code React or ES6 to ES5, etc.
