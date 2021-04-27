@@ -21,7 +21,9 @@ ReactDOM.render(<App/>, appElement);
 
 Solve:
 1. add module babel-loader into webpack.config.js to babel convert code React and JSX to JS.
+
 - add this text into webpack.config.js
+
 {
 
     ...,
@@ -31,7 +33,9 @@ Solve:
     ...
     
 }
+
 - create a file config for babel with name .babelrc and add config like this:
+
 {
 
     "presets": ["@babel/preset-react"]
@@ -39,6 +43,7 @@ Solve:
 }
 
 2. https://github.com/jantimon/html-webpack-plugin use option "template" will hold format of own file and then a file bundle will be added.
+
 {
 
     ...,
