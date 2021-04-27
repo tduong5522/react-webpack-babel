@@ -10,6 +10,7 @@ So babel will help solve the matters which webpack will face with code React.
 Error:
 
 1. Module parse failed: ReactDOM.render()
+
 ![image](https://user-images.githubusercontent.com/82302174/116180783-b407f580-a743-11eb-9979-00f26ac76135.png)
 
 2. After run npx webpack file index have only file bunlde imported into HTML file. And code React below can't get element for render.
